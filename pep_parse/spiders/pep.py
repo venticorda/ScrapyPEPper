@@ -5,6 +5,7 @@ from pep_parse.items import PepParseItem
 
 PEP_URL = "peps.python.org/"
 
+
 class PepSpider(scrapy.Spider):
     name = "pep"
     allowed_domains = [PEP_URL]
