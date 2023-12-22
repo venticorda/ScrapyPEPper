@@ -3,10 +3,12 @@ import scrapy
 from pep_parse.items import PepParseItem
 
 
+PEP_URL = "peps.python.org/"
+
 class PepSpider(scrapy.Spider):
     name = "pep"
-    allowed_domains = ["peps.python.org"]
-    start_urls = ["https://peps.python.org/"]
+    allowed_domains = [PEP_URL]
+    start_urls = ["https://" + PEP_URL]
 
     def parse(self, response):
         pages = response.css(
