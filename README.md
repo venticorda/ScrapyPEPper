@@ -2,7 +2,7 @@
 
 Склонируйте проект:
 ```bash
-git clone git@github.com:ViaDo1orosa/scrapy_parser_pep.git
+git clone https://github.com/venticorda/ScrapyPEPper.git
 ```
 Создайте и активируйте виртуальное окружение:
 ##### Windows:
