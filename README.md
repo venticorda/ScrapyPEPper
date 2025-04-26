@@ -29,7 +29,7 @@ scrapy crawl pep
 2. status_summary_ДатаВремя.csv - «Статус», «Количество» и «Общее число документов»
 
 ## Технологии
-- [Python](https://www.python.org/)
+- [Python3.10](https://www.python.org/)
 - [Scrapy](https://pypi.org/project/Scrapy/)
 
 ## Автор: 
