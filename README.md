@@ -1,4 +1,4 @@
-# scrapy_parser_pep
+# ScrapyPEPper
 
 Склонируйте проект:
 ```bash
